@@ -1,0 +1,141 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+
+Resources link : https://jonas.io/resources/colors/toolbox
+font size : typescale
+
+font-type/typeface  :
+
+                     googlefonts,fontsquirrel,Myfonts
+
+colors:
+
+        Tailwind Colors
+        Another excellent and popular set of color pallettes. Great selection of colors for all your projects.
+
+        UI Colors
+        Tailwind CSS color generator. Just enter a base color to generate a custom Tailwind color palette. Essential if you use Tailwind CSS.
+
+        Coolors Contrast Checker
+        Tool to check whether two colors have a good contrast ratio. Essential for building accessible websites!
+
+        Open Color
+        An open-source color scheme, optimized for UI. My go-to resource to choose colors from scratch.
+
+        Flat UI Colors
+        A good starting point for choosing a flat design color for your next project.
+
+        Material Palette
+        Yet another set of colors, inspired in material design. Generate and download your palette.
+
+        Colorhunt Palettes
+        Don't know what colors to use for your website? Colorhunt helps you with beautiful color palettes.
+
+        LOL Colors Palettes
+        Curated color palettes inspiration. Another source for great color palettes.
+
+        UI Gradients
+        Collection of beautiful color gradients for you to choose from and export to your project.
+
+        Paletton
+        A very popular tool which allows you to create color combinations that play well together.
+
+        Tint and Shade Generator
+        Easily create lighter and darker versions of any base color. Perfect for hovers, borders and gradients.
+
+Images and Videos : 
+
+        Unsplash
+        My #1 resource for free high-resolution photos. There are more photos here than you can imagine!
+
+        Pexels
+        Another great resource for free stock photos and videos, created by photographers around the world.
+
+
+        ISO Republic
+        Free and premium stock photos for your website. Easily searchable by topic.
+
+        Pixaby
+        Over 2M free stock photos, vectors and art illustrations you can use anywhere.
+
+        Midjourney
+        Midjourney is the best AI image generator out there. If you need custom, high-quality photos for a web design, learn Midjourney.
+
+        Blobmaker
+
+        Some design require these random, organic SVG blob shapes. This is the best tool to make them.
+
+        unDraw
+        Hundreds of free and open-source illustrations for your websites, and colors are even customizable.
+
+        UI Faces
+        Avatar photos, perfect for mockups or placeholders. Don't use them for real people...
+
+        Coverr
+        Best resource for beautiful and free videos about every imaginable topic, easily searchable.
+
+        remove.bg
+
+
+
+
+
+Icons : 
+
+        React Icons
+        Industry-standard icon NPM package for React projects.
+
+        Hero Icons
+        A 230-pieces icon set, available in outline and solid styles, best used at 24x24 px.
+
+        Tabler Icons
+        A collection of 5963 free SVG icons. Each icon is crafted on a 24x24 grid with a clean 2px stroke.
+
+        Phosphor Icons
+        Another beautiful, more boxy SVG icon set. Customizable thickness and color.
+
+        Iconmonstr
+        4500+ free and simple icons in 300+ collections, perfect if you need a single icon and not a whole set.
+
+        Box Icons
+        This is an amazing option if you're looking for square icons. These are the ones I use on this site!
+
+        Icons8
+        An incredible premium resource. Has thousands of icons across countless styles and categories. Recently added illustrations and photos too.
+
+        Ionicons
+        Ionicons
+        A popular round icon set, very easy to use, and 100% free even for commercial usage.
+
+        Font Awesome
+        A highly popular icon font, consisting of 1000+ icons spread across countless categories.
+
+        Line Awesome
+        Font awesome (previous icons) looks a bit outdated at this point, so this is a very simple alternative.
+
+        Icomoon
+        Tool to convert icon fonts to SVG icons and sprites. I use it in my advanced CSS course.
+
+
+Inspiration : 
+
+            Land Book
+            Showcase of beautiful web design. My essential #1 inspiration resource when I design websites!
+
+            One Page Love
+            Another gallery of beautiful websites, sorted into multiple categories.
+
+            Awwwards
+            The awards of design, creativity and innovation on the internet. This one features more creative designs.
+
+            Dead Simple Sites
+            A fantastic collection of the most minimal sites on the web. Check this one out if you're a minimalist.
+
+            One Million Screenshots
+            This site rendered over 1 million of the web's top homepages. You can zoom, pan and explore like Google Maps

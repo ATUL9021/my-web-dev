@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.code-megazine {
+  border: 1px solid green;
+  background-color: rgb(96, 167, 167);
+  float: left;
+}
+
+.main-header::after {
+  content: "";
+  clear: left;
+  display: block;
+}
+
+.main-header {
+}
+
+.navigation {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+h1 {
+  color: blue;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.author-image {
+  margin-top: 10px;
+}
+
+.like-button {
+  position: absolute;
+  bottom: 10px;
+  font-size: 20px;
+  background-color: blanchedalmond;
+  right: 0;
+
+  padding: 5px 10px;
+}
+h2 {
+  font-size: 30px;
+  color: aqua;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  clear: both;
+}
+
+h4 {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid blue;
+}
+h3 {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+li {
+  font-family: sans-serif;
+  font-size: 9px;
+  color: black;
+  font-style: italic;
+}
+
+/* list of selectors usage */
+h1,
+h2,
+h3,
+h4,
+p {
+  color: pink;
+}
+p {
+  font-family: sans-serif;
+  font-size: 10px;
+  line-height: 2;
+  color: black;
+}
+
+/* id usage */
+#copyright {
+  font-size: 10px;
+}
+
+/* class usage */
+.related-post {
+  list-style: none;
+}
+
+.aside-content {
+  background-color: rgba(61, 159, 151, 0.575);
+  border: 2px solid black;
+  margin-left: 10px;
+}
+
+/* descendent usage
+body p{
+  color:blue
+} */
+
+/* psudo class usage */
+
+li:first-child {
+  color: brown;
+}
+
+li:last-child {
+  color: cyan;
+}
+
+li:nth-child(2) {
+  color: yellow;
+}
+
+a:link {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: overline wavy red;
+}
+
+a:active {
+  color: white;
+}

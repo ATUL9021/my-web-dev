@@ -1,0 +1,16 @@
+[
+  {
+    "title": "A Book",
+    "id": "1",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+    "description": "This is an awesome book!",
+    "price": "19"
+  },
+  {
+    "title": "adfdf",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+    "description": "sdfdsf",
+    "price": "3",
+    "id": "2"
+  }
+]

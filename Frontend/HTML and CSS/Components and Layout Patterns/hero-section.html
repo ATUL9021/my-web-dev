@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Section</title>
+
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .hero-container {
+        height: 100vh;
+        background-image: url("hero.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        padding: 32px 100px;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 40px;
+        color: white;
+        width: 40%;
+      }
+
+      .content h1 {
+        font-size: 40px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        color: white;
+      }
+
+      button {
+        background-color: red;
+        padding: 12px 24px;
+        border-radius: 10px;
+        color: white;
+        font-weight: 700;
+      }
+
+      .navigation a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="hero-container">
+      <nav class="navigation">
+        <a href="#"> LOGO </a>
+        <a href="#"> NAVIGATION </a>
+      </nav>
+
+      <div class="content">
+        <h1>A healthy meal delivered to your door, every single day</h1>
+        <p>
+          the smart 365-days per-year-food subscription that will make you eat
+          halthy again. Tailored to your personal tastes and nutritional needs.
+        </p>
+
+        <button>Start eating well</button>
+      </div>
+    </section>
+  </body>
+</html>

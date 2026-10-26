@@ -1,0 +1,83 @@
+/* main color: #087f5b */
+/* grey color:#868e96 */
+
+/*
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.accordian-section {
+  width: 40%;
+  margin: 40px auto;
+}
+.accordian-item {
+  display: grid;
+  grid-template-columns: 24px 1fr 24px;
+  column-gap: 20px;
+  row-gap: 16px;
+  justify-items: start;
+  align-items: center;
+  background-color: white;
+  padding: 12px 24px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.036);
+  margin-bottom: 24px;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.accordian-item-number {
+  color: #868e96;
+  font-size: 20;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.accordian-item-title {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.accordian-item-description {
+  grid-column: 2 /3;
+}
+
+.accordian-item-description p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.accordian-item-description li {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #868e96;
+}
+
+.second-item {
+  border-top: 4px solid #087f5b;
+}
+.second-item .accordian-item-number {
+  /* main color: #087f5b */
+  color: #087f5b;
+}
+
+.second-item .accordian-item-title {
+  color: #087f5b;
+}
+
+.second-item .icon {
+  color: #087f5b;
+}

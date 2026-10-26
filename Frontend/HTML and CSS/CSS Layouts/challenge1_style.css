@@ -1,0 +1,186 @@
+.my-article {
+  border: 5px solid #736f5e;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: aliceblue;
+  text-align: center;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+* {
+  font-family: sans-serif;
+}
+.price {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.shipping-paragraph-content {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: black;
+}
+img {
+  margin-bottom: 10px;
+}
+
+.color-1 {
+  margin-left: 2px;
+  margin-bottom: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  display: inline-block;
+}
+
+.color-2 {
+  margin-left: 2px;
+  margin-bottom: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  display: inline-block;
+}
+
+.color-3 {
+  margin-left: 2px;
+  margin-bottom: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: green;
+  display: inline-block;
+}
+
+.color-4 {
+  margin-left: 2px;
+  margin-bottom: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+  display: inline-block;
+}
+
+.color-5 {
+  margin-left: 2px;
+  margin-bottom: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: orange;
+  display: inline-block;
+}
+
+.sale {
+  position: absolute;
+  left: -30px;
+  top: -10px;
+  border: 2px solid red;
+  background-color: #736f5e;
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+.container {
+  width: 825px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 40px;
+}
+.shipping-paragraph {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.more-information-para {
+  margin-bottom: 10px;
+}
+.more-information:link {
+  color: black;
+  text-decoration: underline solid black;
+}
+
+.more-information:visited {
+  color: black;
+  text-decoration: underline solid black;
+}
+
+li {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.more-information:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.more-information:active {
+  color: red;
+}
+
+.product-list {
+  list-style: square;
+}
+
+.add-to-cart-button {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  width: 100%;
+
+  padding-bottom: 10px;
+}
+
+.add-to-cart-button:hover {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:active {
+  background-color: blue;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.shoes-image {
+  float: left;
+  width: 230px;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.second-container {
+  float: left;
+  margin-top: 15px;
+  margin-left: 40px;
+  width: 250px;
+}
+
+.third-container {
+  margin-top: 15px;
+  float: right;
+  width: 250px;
+}
+
+.third-container li {
+  margin-bottom: 20px;
+}
+
+.shipping-paragraph {
+  float: right;
+}
+.shipping-paragraph-content {
+  clear: both;
+}

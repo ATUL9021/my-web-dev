@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+  <head> </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+    }
+
+    .carousel {
+      width: 80%;
+      margin: 100px auto;
+      margin-bottom: 30px;
+      background-color: #087f5b;
+      border-radius: 10px;
+      display: flex;
+      padding: 30px;
+      padding-left: 86px;
+      gap: 100px;
+      align-items: center;
+      position: relative;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 10px;
+      transform: scale(1.4);
+      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .testimonial-text {
+      color: white;
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .testimonial-author {
+      color: #adb5bd;
+      font-size: 16px;
+    }
+
+    .testimonial-company {
+      color: #adb5bd;
+      font-size: 16px;
+    }
+
+    .btn {
+      position: absolute;
+      background-color: white;
+      top: 50%;
+      border-radius: 50%;
+      border: none;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+    }
+
+    .btn-left {
+      left: 0;
+      transform: translate(-50%, -50%);
+    }
+    .btn-right {
+      right: 0;
+      transform: translate(50%, -50%);
+    }
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+    .circle-container {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+    }
+    .circle {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 2px solid black;
+      background-color: white;
+    }
+
+    .first-circle {
+      background-color: #087f5b;
+    }
+  </style>
+  <body>
+    <section class="carousel">
+      <button class="btn btn-left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5 8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+
+      <button class="btn btn-right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m8.25 4.5 7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+      <img src="maria.jpg" alt="Author Photo" />
+      <blockquote class="testimonial">
+        <p class="testimonial-text">
+          "Mauris ut ligula et nibh placerat dignissim quis sit amet massa.
+          Maecenas eget nibh dolor. Proin justo diam, lacinia sed magna at,
+          condimentum lacinia diam. Suspendisse sollicitudin mi id augue
+          lacinia, nec lacinia est suscipit. Aliquam vel lobortis lectus.
+          Aliquam malesuada blandit massa, vel ornare massa."
+        </p>
+
+        <p class="testimonial-author">Maria de Almedia</p>
+        <p class="testimonial-company">
+          senior product Manager at EDP comercial
+        </p>
+      </blockquote>
+    </section>
+
+    <div class="circle-container">
+      <button class="circle first-circle"></button>
+      <button class="circle"></button>
+      <button class="circle"></button>
+      <button class="circle"></button>
+    </div>
+  </body>
+</html>

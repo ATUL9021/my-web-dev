@@ -1,0 +1,21 @@
+step1 : npm install eslint vite-plugin-eslint eslint-config-react-app --save-dev
+
+step2:create .eslintrc.json file in root
+
+step3: inside .eslintrc.json file write : {
+  "extends": "react-app"
+}
+
+step4:inside vite.config.js:
+
+import react from "@vitejs/plugin-react";
+import eslint from "vite-plugin-eslint";
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react(), eslint],
+});
+
+
+
+

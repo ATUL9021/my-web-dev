@@ -1,0 +1,297 @@
+/* 1em=16px by default */
+
+/* below 1344 to 1350 px for small laptops , 1350 is used here */
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .hero-section h1 {
+    font-size: 4.4rem;
+  }
+
+  .gallery-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* below 1200px is for landscape tablets */
+@media (max-width: 75em) {
+  html {
+    /* 9px=56.25% */
+    font-size: 56.25%;
+  }
+
+  .hero-section h1 {
+    font-size: 4rem;
+  }
+}
+
+/* below 920-940 is for tablets */
+
+/* used 940 pixel i.e 58.16em */
+@media (max-width: 62.25em) {
+  .hero {
+    flex-direction: column;
+    gap: 9.6rem;
+  }
+
+  .content-hero-section {
+    text-align: center;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 6.4rem;
+  }
+  .image-container {
+    text-align: center;
+  }
+  .image-container img {
+    width: 60%;
+  }
+
+  .featured-in-logo-container img {
+    height: 2.8rem;
+  }
+
+  .how-it-works-section-content-container-number {
+    font-size: 6.8rem;
+  }
+
+  .testimonials-section {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-section {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .pricing-heading {
+    font-size: 3.6rem;
+  }
+
+  .action-form {
+    grid-template-columns: 1fr;
+  }
+
+  .action-image-container {
+    background-position: center;
+  }
+
+  .input-field {
+    padding: 1.4rem;
+  }
+
+  .select-label {
+    padding: 1.4rem;
+  }
+
+  .action-content {
+    padding: 3.2rem 4.8rem;
+  }
+
+  .action-container {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .action-heading {
+    font-size: 3.2rem;
+  }
+
+  .testimonial-container {
+    column-gap: 0;
+    row-gap: 0;
+  }
+
+  /* mobile navigation */
+
+  .header-nav-button {
+    display: block;
+    z-index: 100;
+  }
+
+  .header-navigation {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* trasition doesnt work if we use display:none
+    display: none; */
+
+    /* so for making it invisible and interactive we do following steps */
+    /* 1) make it transparent */
+    opacity: 0;
+    /* 2)even its transparent mouse click can happen so below properly will restrict mouse event */
+    pointer-events: none;
+
+    /* 3)screen reader should not read it  */
+    visibility: hidden;
+
+    transition: all 0.4s;
+
+    transform: translateX(100%);
+  }
+
+  .open-nav .header-navigation {
+    opacity: 1;
+
+    pointer-events: auto;
+
+    visibility: visible;
+
+    transform: translateX(0);
+  }
+
+  .header-nagivation-list {
+    flex-direction: column;
+    gap: 4.8rem;
+    font-size: 2.4rem;
+  }
+
+  .open-nav .header-nav-button-icon[name="close-outline"] {
+    display: block;
+  }
+  .open-nav .header-nav-button-icon[name="menu-outline"] {
+    display: none;
+  }
+
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+}
+
+/* from 700px - 710px is for small tablets. */
+
+@media (max-width: 48em) {
+  .meal-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2.4rem;
+  }
+
+  .diet-card {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .featured-in-logo-container img {
+    height: 1.8rem;
+  }
+
+  .pricing-card-container {
+    flex-direction: column;
+  }
+
+  .features-section {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .testimonial-author-para {
+    line-height: 1.3;
+  }
+
+  .action-container {
+    grid-template-columns: 1fr;
+  }
+  .action-image-container {
+    grid-row: 1;
+    height: 43rem;
+    background-position: center;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 4.4rem;
+  }
+
+  .footer-container nav {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+
+  .footer-container div {
+    grid-column: span 3;
+  }
+}
+
+/* from 500px is breakpoint for phones */
+
+@media (max-width: 31em) {
+  .hero-section {
+    padding: 1.8rem 5.2rem;
+  }
+
+  .hero-btn-left {
+    display: inline-block;
+    margin-top: 3.2rem;
+    padding-left: 10rem;
+  }
+
+  .delivered-meals p {
+    display: block;
+  }
+
+  .image-container img {
+    width: 80%;
+  }
+
+  .featured-in-logo-container img {
+    height: 1.3rem;
+  }
+
+  .meal-cards-container {
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-section {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .features-section {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-icon-container {
+    margin-bottom: 1.8rem;
+  }
+
+  .feature {
+    margin-bottom: 4.8rem;
+  }
+
+  .action-content {
+    padding: 1.2rem 2.4rem;
+  }
+
+  .footer-container {
+    column-gap: 1.4rem;
+  }
+
+  .pricing-card-container {
+    padding-right: 1rem;
+  }
+
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .how-it-works-section-img-container:nth-child(3) {
+    grid-row: 4;
+  }
+}

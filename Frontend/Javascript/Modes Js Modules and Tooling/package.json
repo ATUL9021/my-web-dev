@@ -1,0 +1,16 @@
+{
+  "name": "js-modules",
+  "version": "1.0.0",
+  "description": "first ",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}

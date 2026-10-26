@@ -1,0 +1,135 @@
+<!doctype html>
+
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+      }
+      .container {
+        display: flex;
+        height: 100vh;
+      }
+
+      .navigation {
+        background-color: #343a40;
+        padding: 16px 32px;
+      }
+
+      .main-section-container {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .top-header {
+        display: flex;
+        padding: 24px 48px;
+        gap: 10px;
+
+        background-color: #1c7ed6;
+      }
+
+      .btn {
+        padding: 8px 16px;
+        background-color: #228be6;
+        color: white;
+        border-radius: 2px;
+        font-weight: 700;
+      }
+
+      .trash-btn {
+        background-color: #37b24d;
+        margin-left: auto;
+      }
+
+      .email-section {
+        display: flex;
+        overflow: hidden;
+        flex-grow: 1;
+      }
+
+      .email-display-section {
+        padding: 16px 32px;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        background-color: #dee2e6;
+        gap: 20px;
+      }
+
+      .email-btn {
+        padding: 24px 72px;
+        color: black;
+        font-weight: 500;
+        font-size: 24px;
+        background-color: #adb5bd;
+      }
+      .email-additional-info-section {
+        background-color: #dee2e6;
+        padding: 16px 32px;
+      }
+
+      p {
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .email-view-section {
+        flex-grow: 1;
+        padding: 16px 32px;
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navigation">
+        <h1>NAV</h1>
+      </nav>
+      <div class="main-section-container">
+        <header class="top-header">
+          <button class="btn">New</button>
+          <button class="btn">Reply</button>
+          <button class="btn">Forward</button>
+          <button class="btn">Mark Unread</button>
+
+          <button class="btn trash-btn">Trash</button>
+        </header>
+
+        <div class="email-section">
+          <div class="email-display-section">
+            <button class="email-btn">Email 1</button>
+            <button class="email-btn">Email 2</button>
+            <button class="email-btn">Email 3</button>
+            <button class="email-btn">Email 4</button>
+            <button class="email-btn">Email 5</button>
+            <button class="email-btn">Email 6</button>
+            <button class="email-btn">Email 7</button>
+            <button class="email-btn">Email 8</button>
+            <button class="email-btn">Email 8</button>
+            <button class="email-btn">Email 8</button>
+            <button class="email-btn">Email 8</button>
+            <button class="email-btn">Email 8</button>
+            <button class="email-btn">Email 8</button>
+            <button class="email-btn">Email 8</button>
+          </div>
+          <div class="email-view-section">
+            <p>Email View</p>
+          </div>
+          <div class="email-additional-info-section">
+            <p>Additinal Info</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
